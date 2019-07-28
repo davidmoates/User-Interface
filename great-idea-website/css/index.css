@@ -1,66 +1,302 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
+/* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
 */
 
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
 }
 body {
-	line-height: 1;
+  line-height: 1;
 }
-ol, ul {
-	list-style: none;
+ol,
+ul {
+  list-style: none;
 }
-blockquote, q {
-	quotes: none;
+blockquote,
+q {
+  quotes: none;
 }
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
 }
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
+  border-collapse: collapse;
+  border-spacing: 0;
 }
 
 /* Set every element's box-sizing to border-box */
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
-html, body {
-    height: 100%;
-    font-family: 'Titillium Web', sans-serif;
+html,
+body {
+  height: 100%;
+  font-family: "Titillium Web", sans-serif;
 }
 
-h1, h2, h3, h4, h5 {
-    font-family: 'Bangers', cursive;
-    letter-spacing: 1px;
-    margin-bottom: 15px;
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Bangers", cursive;
+  letter-spacing: 1px;
+  margin-bottom: 15px;
 }
 
 /* Your code starts here! */
+/* body {
+  text-align: center;
+} */
+
+section {
+  /* border: 1px solid blue; */
+}
+header {
+  /* border: 1px solid blue; */
+  display: inline-block;
+  vertical-align: middle;
+  width: 1000px;
+  height: auto;
+}
+div {
+  /* border: 1px solid green; */
+}
+a {
+  /* border: 1px solid red; */
+  text-decoration: none;
+  color: grey;
+  vertical-align: middle;
+  margin: 10px;
+  padding: 25px;
+}
+p {
+  /* border: 1px solid red; */
+  text-align: left;
+}
+.logo {
+  vertical-align: middle;
+}
+.top {
+  display: inline-block;
+  /* border: 1px solid blue; */
+  vertical-align: middle;
+  width: 1000px;
+  height: auto;
+}
+.roundIMG {
+  /* border: 1px solid red; */
+  width: 40%;
+  height: auto;
+  text-align: right;
+  vertical-align: middle;
+  padding: 25px;
+}
+.title {
+  /* border: 1px solid red; */
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+  padding: 25px;
+}
+h1 {
+  /* border: 1px solid red; */
+  font-size: 80px;
+  text-align: center;
+}
+h4 {
+  /* border: 1px solid red; */
+  text-align: left;
+}
+button {
+  background-color: white;
+  border: 1px solid black;
+  width: 150px;
+  height: 25px;
+}
+.middle {
+  display: inline-block;
+  text-align: center;
+}
+.middleTOP {
+  margin: 20px;
+  padding: 10px
+  box-sizing: border-box;
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+  border-top: 1px solid black;
+}
+.features {
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+  width: 49%;
+  padding: 25px;
+}
+.about {
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+  width: 49%;
+  padding: 25px;
+}
+.middleIMG {
+  margin: 10px;
+  padding: 25px;
+  max-width: 100%;
+  width: inherit;
+}
+.middleBOTTOM {
+  margin: 20px;
+  padding: 10px
+  display: inline-block;
+  text-align: center;
+  border-bottom: 1px solid black;
+}
+.services {
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+  width: 32%;
+  padding: 25px;
+}
+.product {
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+  width: 32%;
+  padding: 25px;
+}
+.vision {
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+  width: 32%;
+  padding: 25px;
+}
+.contact {
+  margin: 10px;
+  width: 33%;
+  text-align: left;
+  vertical-align: middle;
+  padding: 10px;
+}
+footer {
+  margin: 10px;
+  padding: 25px;
+  /* border: 1px solid red; */
+  text-align: center;
+}
+#copyright {
+  /* border: 1px solid red; */
+  display: inline-block;
+  text-align: center;
+}
+
+/* done by David Moates */
